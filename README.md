@@ -42,8 +42,11 @@ default: &default
 ```$ docker-compose run app rails db:create```
 
 ### 6.
-access test
+```$ docker-compose run app bundle exec rails s```
 
-browser
+
+### access test
+
+browser url bar
 
 ```localhost:3000```
