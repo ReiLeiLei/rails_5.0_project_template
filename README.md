@@ -1,4 +1,4 @@
-# rails_5.0_project_template
+# rails_5.0_project_template(M1 Mac)
 
 ## Platform
 Docker
@@ -45,6 +45,6 @@ default: &default
 
 ### access test
 
-browser url bar
+Set in browser url bar
 
 ```localhost:3000```
