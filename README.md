@@ -12,8 +12,6 @@ Bundler 2.22.2
 ## Framework
 Rails 5.0.0
 
-## Test Framework
-Rspec
 ## Usage
 
 ### 1.
