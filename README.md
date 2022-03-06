@@ -16,13 +16,13 @@ Rails 5.0.0
 Rspec
 ## Usage
 
-# 1.
-`$ docker-compose run app rails new . --force --database=mysql`
+### 1.
+```$ docker-compose run app rails new . --force --database=mysql```
 
-# 2.
-`$ vi config/database.yml`
+### 2.
+```$ vi config/database.yml```
 
-`
+```
 default: &default
   adapter: mysql2
   encoding: utf8mb4
@@ -30,19 +30,20 @@ default: &default
   username: root
   password: password <- change setting to docker-compose.yml
   host: db <- change change setting to docker-compose.yml
-`
+```
 
-# 3.
-`$ docker-compose build`
+### 3.
+```$ docker-compose build```
 
-# 4.
-`$ docker-compose up -d`
+### 4.
+```$ docker-compose up -d```
 
-# 5.
-`$ docker-compose run app rails db:create`
+### 5.
+```$ docker-compose run app rails db:create```
 
-# 6.
+### 6.
 access test
 
 browser
-`localhost:3000`
+
+```localhost:3000```
